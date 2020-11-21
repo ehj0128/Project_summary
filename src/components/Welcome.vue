@@ -9,7 +9,7 @@
         md="6"
       >
         <v-img
-          :src="require('@/assets/welcome.png')"
+          :src="require('@/assets/myimage.png')"
           height="100vh"
         />
       </v-col>
@@ -18,7 +18,6 @@
         class="align-content-space-between layout wrap"
         cols="12"
         md="6"
-        :pa-5="$vuetify.breakpoint.smAndDown"
       >
         <base-bubble-1
           style="transform: rotate(180deg) translateY(25%)"
@@ -32,20 +31,27 @@
             cols="10"
             md="6"
           >
-            <base-heading>Welcome!</base-heading>
-            <base-text>
-              Lorem ipsum dolor sit amet, consectetur ad
-              ipiscin elit. Etiam vulputate augue vel felis gra
-              vida porta. Lorem ipsum dolor sit amet, cons
-              ectetur adipiscing elit.<br>
-              Lorem ipsum dolor sit amet, consectetur ad
-              ipiscin elit. Etiam vulputate augue vel felis gra
-              vida porta. Lorem ipsum dolor sit amet, cons
-              ectetur adipiscing elit.
+            <base-heading>안녕하세요!</base-heading>
+            <base-text class="text-left">
+              엄홍재의 프로젝트 소개 페이지 입니다.
+              <br><br>
+              <ul>
+              <li>희망직무</li>
+              <ol>
+                <li>Front-end 개발</li>
+                <li>Back-end 개발</li>
+              </ol>
+              <li>사용기술 및 언어</li>
+              Python, Javascript, Vue.js, Django, React.js, React-Native
+              </ul>
+              <br>
+              Github : <a
+                href="https://github.com/ehj0128"
+                target="_blank"
+                >https://github.com/ehj0128</a>
+              <br>
+              E-mail : hjeom0128@kakao.com
             </base-text>
-            <base-btn class="mt-4">
-              Learn More!
-            </base-btn>
           </v-col>
         </v-row>
 
