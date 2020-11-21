@@ -19,7 +19,15 @@ git commit -m 'deploy'
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
+git remote add origingithub https://github.com/ehj0128/Project_summary.git
+
+git branch gh-pages
+
+git checkout gh-pages
+
+
+
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:ehj0128/Project_summary.git master:gh-pages
+git push -f origingithub gh-pages
 
 cd -
