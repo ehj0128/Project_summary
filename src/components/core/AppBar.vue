@@ -17,7 +17,9 @@
         v-if="showLogo"
         class="shrink"
         contain
-      >엄홍재의 프로젝트</h1>
+      >
+        엄홍재의 프로젝트
+      </h1>
     </v-slide-x-transition>
 
     <v-spacer />
@@ -29,7 +31,7 @@
         offset: 0
       })"
     >
-    TOP
+      TOP
     </base-btn>
   </v-app-bar>
 </template>
