@@ -6,32 +6,32 @@
     flat
   >
     <v-slide-x-transition>
-      <v-img
+      <!-- <v-img
         v-if="showLogo"
         :src="require('@/assets/logo.png')"
         class="shrink"
         contain
         height="50"
-      />
+      /> -->
+      <h1
+        v-if="showLogo"
+        class="shrink"
+        contain
+      >
+        엄홍재의 프로젝트
+      </h1>
     </v-slide-x-transition>
 
     <v-spacer />
-
-    <social-media />
-
     <base-btn
       class="ml-3"
       large
-      href="https://store.vuetifyjs.com/product/freelancer-theme-free?ref=freelancer"
+      @click="$vuetify.goTo(0, {
+        duration: 100,
+        offset: 0
+      })"
     >
-      Download for Free
-
-      <v-icon
-        right
-        small
-      >
-        mdi-open-in-new
-      </v-icon>
+      TOP
     </base-btn>
   </v-app-bar>
 </template>
