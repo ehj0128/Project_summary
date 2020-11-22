@@ -76,7 +76,7 @@
 
 <script>
   export default {
-    name: 'MovieCommunity',
+    name: 'STEW',
     data: () => ({
       information1: [
         {
