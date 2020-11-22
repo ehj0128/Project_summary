@@ -39,11 +39,6 @@
 <script>
   export default {
     name: 'CoreAppBar',
-
-    components: {
-      SocialMedia: () => import('@/components/SocialMedia'),
-    },
-
     data: () => ({
       showLogo: false,
       isScrolling: false,

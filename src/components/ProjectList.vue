@@ -1,6 +1,6 @@
 <template>
   <section
-    id="services"
+    id="projects"
     class="overflow-hidden"
   >
     <v-row
@@ -32,7 +32,7 @@
           </v-col>
 
           <v-col
-            v-for="(service, i) in services"
+            v-for="(project, i) in projects"
             :key="i"
             class="text-center mb-3"
             md="4"
@@ -46,14 +46,15 @@
               <v-icon
                 dark
                 size="52"
-                v-text="service.icon"
+                v-text="project.icon"
+                @click="$router.push({name: project.address})"
               />
             </v-avatar>
 
             <base-text>
               <div
                 class="mb-2"
-                v-text="service.name"
+                v-text="project.name"
               />
             </base-text>
           </v-col>
@@ -74,29 +75,34 @@
 
 <script>
   export default {
-    name: 'Services',
+    name: 'ProjectList',
 
     data: () => ({
-      services: [
+      projects: [
         {
           name: '영화 추천 커뮤니티',
           icon: 'mdi-movie-open-outline',
+          address: 'MovieCommunity',
         },
         {
           name: '화상 스터디',
           icon: 'mdi-pencil-outline',
+          address: 'STEW',
         },
         {
           name: '태권도 자세교정',
           icon: 'mdi-account-group-outline',
+          address: 'Taekwondo',
         },
         {
           name: 'rlottie Preview',
           icon: 'mdi-animation',
+          address: 'rlottie',
         },
         {
           name: '데일리타운',
           icon: 'mdi-home-circle',
+          address: 'Dailytown',
         },
       ],
     }),
