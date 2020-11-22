@@ -1,7 +1,7 @@
 <template>
   <div>
     <welcome />
-    <services />
+    <projectlist />
   </div>
 </template>
 
@@ -11,8 +11,7 @@
 
     components: {
       Welcome: () => import('@/components/Welcome'),
-      Services: () => import('@/components/Services'),
-
+      projectlist: () => import('@/components/ProjectList'),
     },
   }
 </script>

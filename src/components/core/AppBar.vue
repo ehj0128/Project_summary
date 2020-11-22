@@ -6,13 +6,6 @@
     flat
   >
     <v-slide-x-transition>
-      <!-- <v-img
-        v-if="showLogo"
-        :src="require('@/assets/logo.png')"
-        class="shrink"
-        contain
-        height="50"
-      /> -->
       <h1
         v-if="showLogo"
         class="shrink"
@@ -39,11 +32,6 @@
 <script>
   export default {
     name: 'CoreAppBar',
-
-    components: {
-      SocialMedia: () => import('@/components/SocialMedia'),
-    },
-
     data: () => ({
       showLogo: false,
       isScrolling: false,

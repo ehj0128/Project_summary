@@ -59,7 +59,7 @@
 
 <script>
   export default {
-    name: 'RecentProjects',
+    name: 'Taekwondo',
 
     data: () => ({
       projects: [
