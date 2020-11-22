@@ -36,13 +36,10 @@
           </v-col>
         </v-row>
       </v-container>
-
-      <div class="py-12" />
     </section>
     <section
       class="grey lighten-3"
     >
-      <div class="py-12" />
       <v-container class="text-left">
         <v-responsive
           class="mx-auto mb-12"
@@ -111,6 +108,12 @@
         },
       ],
     }),
+    mounted () {
+      this.$vuetify.goTo(0, {
+        duration: 100,
+        offset: 0,
+      })
+    },
   }
 </script>
 
