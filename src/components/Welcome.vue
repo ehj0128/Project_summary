@@ -31,8 +31,8 @@
             cols="10"
             md="6"
           >
-            <base-heading>안녕하세요!</base-heading>
-            <base-text class="text-left">
+            <base-heading class="welcome-font-style">안녕하세요!</base-heading>
+            <base-text class="text-left p-font-style">
               엄홍재의 프로젝트 소개 페이지 입니다.
               <br><br>
               <ul>
@@ -62,3 +62,14 @@
     </v-row>
   </section>
 </template>
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+.welcome-font-style {
+  font-family: 'Black Han Sans', sans-serif !important
+}
+.p-font-style {
+  font-family: 'Jua', sans-serif !important;
+  font-size: 20px !important
+}
+</style>

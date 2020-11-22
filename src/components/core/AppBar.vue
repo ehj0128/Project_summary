@@ -8,7 +8,7 @@
     <v-slide-x-transition>
       <h1
         v-if="showLogo"
-        class="shrink"
+        class="shrink main-font-style"
         contain
       >
         엄홍재의 프로젝트
@@ -61,3 +61,11 @@
     },
   }
 </script>
+
+<style scoped>
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+.main-font-style {
+  font-family: 'Nanum Pen Script', 'NanumSquare', sans-serif
+}
+
+</style>

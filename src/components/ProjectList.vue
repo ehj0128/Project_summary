@@ -21,7 +21,7 @@
             <base-bubble-2
               style="transform: translateX(55%)"
             />
-            <base-heading class="info--text">
+            <base-heading class="info--text project-list-font-style">
               Project List
             </base-heading>
 
@@ -108,3 +108,11 @@
     }),
   }
 </script>
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+.project-list-font-style {
+  font-family: 'Black Han Sans', sans-serif !important
+}
+
+</style>
