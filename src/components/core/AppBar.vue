@@ -17,6 +17,14 @@
 
     <v-spacer />
     <base-btn
+      v-if="checkPage()"
+      class="ml-3"
+      large
+      @click="$router.push({name: 'Home'})"
+    >
+      HOME
+    </base-btn>
+    <base-btn
       class="ml-3"
       large
       @click="$vuetify.goTo(0, {
@@ -36,12 +44,19 @@
       showLogo: false,
       isScrolling: false,
     }),
-
     methods: {
       onScroll () {
         const offset = window.pageYOffset
         this.isScrolling = offset > 50
         this.showLogo = offset > 200
+      },
+      checkPage () {
+        switch (this.$router.history.current.path) {
+          case '/':
+            return false
+          default:
+            return true
+        }
       },
     },
   }

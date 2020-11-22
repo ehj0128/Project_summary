@@ -36,13 +36,10 @@
           </v-col>
         </v-row>
       </v-container>
-
-      <div class="py-12" />
     </section>
     <section
       class="grey lighten-3"
     >
-      <div class="py-12" />
       <v-container class="text-left">
         <v-responsive
           class="mx-auto mb-12"
@@ -72,7 +69,6 @@
           </v-col>
         </v-row>
       </v-container>
-
       <div class="py-12" />
     </section>
   </v-main>
@@ -80,12 +76,12 @@
 
 <script>
   export default {
-    name: 'MovieCommunity',
+    name: 'Rlottie',
     data: () => ({
       information1: [
         {
           title: '목표',
-          text: '<ol><li>디자이너가 제작한 Lottie 애니메이션 파일이 rlottie 엔진에서 정상 호환되는지 미리 확인해 볼 수 있는 기능을 제공</li><li>커스터마이징 옵션을 rlottie 프리뷰에 추가하고 디자이너와 앱 개발자가 웹페이지 상에서 Lottie 애니매이션을 미리 확인해볼 수 있도록 합니다.</li></ol><br/><a href="https://opensource.samsung.com/community/mine/mineArticle/8?lang=KR">Samsung Open Source 홈페이지에 개시된 프로젝트 과제</a>',
+          text: '<ol><li>디자이너가 제작한 Lottie 애니메이션 파일이 rlottie 엔진에서 정상 호환되는지 미리 확인해 볼 수 있는 기능을 제공</li><li>커스터마이징 옵션을 rlottie 프리뷰에 추가하고 디자이너와 앱 개발자가 웹페이지 상에서 Lottie 애니매이션을 미리 확인해볼 수 있도록 합니다.</li></ol><br/><a href="https://opensource.samsung.com/community/mine/mineArticle/8?lang=KR">Samsung Open Source 홈페이지에 게시된 프로젝트 과제</a>',
         },
         {
           title: '기간 및 팀 규모',
@@ -111,6 +107,12 @@
         },
       ],
     }),
+    mounted () {
+      this.$vuetify.goTo(0, {
+        duration: 100,
+        offset: 0,
+      })
+    },
   }
 </script>
 

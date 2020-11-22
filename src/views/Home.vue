@@ -1,18 +1,20 @@
 <template>
-  <v-app>
-    <core-app-bar />
+  <div>
     <core-view />
-  </v-app>
+  </div>
 </template>
 
 <script>
   export default {
     name: 'App',
-
     components: {
-      CoreAppBar: () => import('@/components/core/AppBar'),
-      CoreFooter: () => import('@/components/core/Footer'),
       CoreView: () => import('@/components/core/View'),
+    },
+    mounted () {
+      this.$vuetify.goTo(0, {
+        duration: 100,
+        offset: 0,
+      })
     },
   }
 </script>

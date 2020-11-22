@@ -46,8 +46,8 @@
               <v-icon
                 dark
                 size="52"
-                v-text="project.icon"
                 @click="$router.push({name: project.address})"
+                v-text="project.icon"
               />
             </v-avatar>
 
