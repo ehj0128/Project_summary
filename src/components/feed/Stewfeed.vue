@@ -27,71 +27,71 @@
       layout: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
       articles: [
         {
-          title: '',
+          title: '1',
           path: 'STEW/main.jpg',
         },
         {
-          title: '',
+          title: '2',
           path: 'STEW/guide.jpg',
         },
         {
-          title: '',
+          title: '3',
           path: 'STEW/signin.jpg',
         },
         {
-          title: '',
+          title: '4',
           path: 'STEW/sociallogin.jpg',
         },
         {
-          title: '',
+          title: '5',
           path: 'STEW/login.jpg',
         },
         {
-          title: '',
+          title: '6',
           path: 'STEW/grouplist.jpg',
         },
         {
-          title: '',
+          title: '7',
           path: 'STEW/groupsearch.jpg',
         },
         {
-          title: '',
+          title: '8',
           path: 'STEW/joingroup.jpg',
         },
         {
-          title: '',
+          title: '9',
           path: 'STEW/notice.jpg',
         },
         {
-          title: '',
+          title: '10',
           path: 'STEW/creategroup.jpg',
         },
         {
-          title: '',
+          title: '11',
           path: 'STEW/groupdetail.jpg',
         },
         {
-          title: '',
+          title: '12',
           path: 'STEW/groupdetail2.jpg',
         },
         {
-          title: '',
+          title: '13',
           path: 'STEW/readycamara.jpg',
         },
         {
-          title: '',
+          title: '14',
           path: 'STEW/camstudy.jpg',
         },
         {
-          title: '',
+          title: '15',
           path: 'STEW/calendar.jpg',
         },
         {
-          title: '',
+          title: '16',
           path: 'STEW/userinfo.jpg',
         },
         {
-          title: '',
+          title: '17',
           path: 'STEW/userstudytime.jpg',
         },
       ],

@@ -68,26 +68,6 @@
             </v-card>
           </v-col>
           <div class="py-12" />
-          <!-- <v-col class="align-center">
-            <h2>메인페이지</h2>
-            <v-img
-              :src="require('../../assets/rlottie/main.png')"
-              contain
-              height="40%"
-            />
-            <div class="py-12" />
-            <h2>저희 팀의 발표 영상입니다.</h2>
-            <h3>8분 9초부터 15분 55초까지 입니다.</h3>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/0ZaU7dvhxdE?start=489"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            /> -->
-            <!--8분 9초 부터 15분 55초까지  -->
-          <!-- </v-col> -->
           <recent-projects />
         </v-row>
       </v-container>
@@ -98,8 +78,8 @@
 <script>
   import RecentProjects from '../../components/RecentProjects.vue'
   export default {
-    components: { RecentProjects },
     name: 'Rlottie',
+    components: { RecentProjects },
     data: () => ({
       information1: [
         {

@@ -21,7 +21,6 @@
           <v-col cols="12">
             <h3
               class="title font-weight-bold mb-2"
-              v-html="value.title"
             />
           </v-col>
         </v-row>

@@ -27,17 +27,16 @@
           <v-container class="pa-2">
             <v-row>
               <v-col
-                v-for="main in mains"
-                :key="main"
+                v-for="data in mains"
+                :key="data"
                 cols="12"
                 md="6"
               >
-                <a href="#">
-                  <v-img
-                    :src="require(`@/assets/rlottie/${main}.png`)"
-                    max-height="300"
-                  />
-                </a>
+                <v-img
+                  :src="require(`@/assets/rlottie/${data}.png`)"
+                  max-height="300"
+                  width="100%"
+                />
               </v-col>
             </v-row>
           </v-container>
@@ -76,10 +75,13 @@
   }
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
 .rlottie-main-font {
-  font : 10px;
+  font-family: 'Nanum Gothic', sans-serif !important;
 }
 .rlottie-content-font {
-  font : 10px;
+  font-family: 'Poor Story', cursive !important;
 }
 </style>
