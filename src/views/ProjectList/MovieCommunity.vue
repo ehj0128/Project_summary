@@ -74,6 +74,7 @@
     </section>
     <section>
       <movie-community-site />
+      <div class="py-12" />
     </section>
   </v-main>
 </template>

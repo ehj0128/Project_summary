@@ -17,7 +17,7 @@
 
 <script>
   export default {
-    name: 'Moviefeed',
+    name: '',
 
     components: {
       FeedCard: () => import('@/components/FeedCard'),
@@ -27,69 +27,52 @@
       layout: [2, 2, 1, 2, 2, 3, 3, 3, 3, 3, 3],
       articles: [
         {
-          title: 'Moroccan Days',
-          author: 'John L',
-          category: 'Travel',
-          hero: 'moroccandays.jpg',
+          title: '메인 페이지',
+          hi:'hih',
+          path: 'moviecommunity/main.png',
         },
         {
           title: 'Swedish Fishing',
-          author: 'Rachel L',
-          category: 'Leisure',
-          hero: 'autumnclouds.jpg',
+          path: 'moviecommunity/signup.png'
         },
         {
           title: 'The Adventure Begins',
-          hero: 'snowcup.jpg',
+          hero: 'articles/snowcup.jpg',
           prominent: true,
         },
         {
           title: 'Paris in Spring',
-          author: 'John L',
-          category: 'Travel',
-          hero: 'christmas.jpg',
+          path: 'moviecommunity/login.png'
         },
         {
           title: 'Youthful Independence',
-          author: 'Rachel L',
-          category: 'Political',
-          hero: 'july4.jpg',
+          path: 'moviecommunity/chooselikemovie.png'
         },
         {
           title: 'Trial By Fire',
-          author: 'Anthony R',
-          category: 'Cooking',
-          hero: 'firepots.jpg',
+          path: 'moviecommunity/main2.png'
         },
         {
           title: 'Water Ventures',
-          author: 'Rachel L',
-          category: 'Leisure',
-          hero: 'jellyfish.jpg',
-        },
-        {
-          title: 'Mt. Zekial',
-          author: 'Rachel L',
-          category: 'Travel',
-          hero: 'mountaincabin.jpg',
-        },
-        {
-          title: 'Cozumel Caves',
-          author: 'Rachel L',
-          category: 'Travel',
-          hero: 'lightcave.jpg',
+          path: 'moviecommunity/articlelist.png'
         },
         {
           title: 'Amazing Ireland',
-          author: 'Rachel L',
-          category: 'Travel',
-          hero: 'greengrass.jpg',
+          path: 'moviecommunity/newarticle.png'
+        },
+        {
+          title: 'Mt. Zekial',
+          path: 'moviecommunity/article.png'
+        },
+        {
+          title: 'Cozumel Caves',
+          path: 'moviecommunity/comment.png'
         },
         {
           title: 'Cabin Fever',
           author: 'Rachel L',
           category: 'Travel',
-          hero: 'snowcabin.jpg',
+          hero: 'articles/snowcabin.jpg',
         },
       ],
     }),

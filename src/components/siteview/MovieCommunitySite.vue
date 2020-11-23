@@ -11,7 +11,7 @@
     name: 'MovieCommunitySite',
 
     components: {
-      moviefeed: () => import('@/components/feed/moviefeed'),
+      moviefeed: () => import('@/components/feed/Moviefeed'),
     },
   }
 </script>

@@ -1,14 +1,14 @@
 <template>
   <section>
-    <moviefeed>
+    <!-- <moviefeed>
       <slot />
-    </moviefeed>
+    </moviefeed> -->
   </section>
 </template>
 
 <script>
   export default {
-    name: 'MovieCommunitySite',
+    name: '',
 
     components: {
       moviefeed: () => import('@/components/feed/moviefeed'),
