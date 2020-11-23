@@ -63,9 +63,9 @@
 </script>
 
 <style scoped>
-@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
 .main-font-style {
-  font-family: 'Nanum Pen Script', 'NanumSquare', sans-serif
+  font-family: 'Nanum Gothic', sans-serif
 }
 
 </style>

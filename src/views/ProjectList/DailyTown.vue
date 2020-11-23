@@ -5,7 +5,7 @@
     >
       <div class="py-12" />
       <v-container class="text-center">
-        <h2 class="display-2 font-weight-bold mb-3">
+        <h2 class="display-2 font-weight-bold mb-3 main-title-font">
           데일리 타운
         </h2>
         <v-responsive
@@ -25,11 +25,11 @@
               flat
             >
               <v-card-title
-                class="justify-center font-weight-black text-uppercase"
+                class="justify-center font-weight-black text-uppercase detail-title-font"
                 v-text="title"
               />
               <v-card-text
-                class="subtitle-1 text-type"
+                class="subtitle-1 text-type detail-content-font"
                 v-html="text"
               />
             </v-card>
@@ -40,9 +40,9 @@
     <section
       class="grey lighten-3"
     >
-      <v-container class="text-left">
+      <v-container>
         <v-responsive
-          class="mx-auto mb-12"
+          class="mx-auto"
           width="56"
         />
         <v-row>
@@ -58,11 +58,11 @@
               flat
             >
               <v-card-title
-                class="font-weight-black"
+                class="justify-center font-weight-black text-uppercase detail-title-font"
                 v-text="title"
               />
               <v-card-text
-                class="subtitle-1 text-type"
+                class="subtitle-1 text-type detail-content-font"
                 v-html="text"
               />
             </v-card>
@@ -103,7 +103,7 @@
         },
         {
           title: '관련 주소',
-          text: '<ul><li>Github : <a href=""></a></li></ul>',
+          text: '<ul><li>Github : <a href=""></a></li><li>Google Play Store : <a href="https://play.google.com/store/apps/details?id=com.bexpert.dailytown">데일리타운 다운로드</a></li></ul>',
         },
       ],
     }),
@@ -117,7 +117,14 @@
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
 .text-type {
+  font-family: 'Jua', sans-serif !important;
   text-align: left;
+}
+.main-title-font {
+  font-family: 'Poor Story', cursive !important;
 }
 </style>
