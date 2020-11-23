@@ -79,7 +79,7 @@
 </template>
 
 <script>
-  import StewSite from '../../components/siteview/StewSite'
+  import StewSite from '../../components/siteview/StewSite.vue'
   export default {
     components: { StewSite },
     data: () => ({
