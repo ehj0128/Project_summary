@@ -39,7 +39,7 @@
           path: 'moviecommunity/login.png',
         },
         {
-          title: '로그인 하면 좋아하는 영화를 <br/> 선택 할 수 있습니다.',
+          title: '로그인 하면 좋아하는 영화를 <br/> 선택할 수 있습니다.',
           path: 'moviecommunity/chooselikemovie.png',
         },
         {
