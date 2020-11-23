@@ -13,7 +13,7 @@
 </script>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -36,7 +36,6 @@
   }
 }
 .detail-title-font {
-  font-family: 'Do Hyeon', sans-serif !important;
-  font-size: 22px;
+  font-family: 'Gothic A1', sans-serif !important;
 }
 </style>

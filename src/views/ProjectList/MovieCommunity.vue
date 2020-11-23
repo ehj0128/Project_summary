@@ -72,12 +72,17 @@
 
       <div class="py-12" />
     </section>
+    <section>
+      <movie-community-site />
+    </section>
   </v-main>
 </template>
 
 <script>
+  import MovieCommunitySite from '../../components/siteview/MovieCommunitySite.vue'
   export default {
     name: 'MovieCommunity',
+    components: { MovieCommunitySite },
     data: () => ({
       information1: [
         {
