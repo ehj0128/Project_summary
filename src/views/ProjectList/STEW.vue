@@ -71,12 +71,17 @@
       </v-container>
       <div class="py-12" />
     </section>
+    <section>
+      <stew-site />
+      <div class="py-12" />
+    </section>
   </v-main>
 </template>
 
 <script>
+  import StewSite from '../../components/siteview/StewSite'
   export default {
-    name: 'STEW',
+    components: { StewSite },
     data: () => ({
       information1: [
         {
