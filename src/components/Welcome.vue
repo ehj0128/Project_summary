@@ -5,12 +5,12 @@
   >
     <v-row no-gutters>
       <v-col
-        class="hidden-sm-and-down"
+        class="hidden-sm-and-down d-flex align-center justify-center"
         md="6"
       >
         <v-img
           :src="require('@/assets/myimage.png')"
-          height="100vh"
+          max-width="77%"
         />
       </v-col>
 

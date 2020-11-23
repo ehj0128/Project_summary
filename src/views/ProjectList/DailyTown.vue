@@ -103,7 +103,7 @@
         },
         {
           title: '관련 주소',
-          text: '<ul><li>Github : <a href=""></a></li></ul>',
+          text: '<ul><li>Github : <a href=""></a></li><li>Google Play Store : <a href="https://play.google.com/store/apps/details?id=com.bexpert.dailytown">데일리타운 다운로드</a></li></ul>',
         },
       ],
     }),
