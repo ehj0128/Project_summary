@@ -5,7 +5,7 @@
         <slot />
       </v-col>
 
-      <feed-card
+      <feed-card-white
         v-for="(article, i) in articles"
         :key="article.title"
         :size="layout[i]"
@@ -20,47 +20,79 @@
     name: 'Stewfeed',
 
     components: {
-      FeedCard: () => import('@/components/FeedCard'),
+      FeedCardWhite: () => import('@/components/FeedCardWhite'),
     },
 
     data: () => ({
-      layout: [1, 2, 2, 1, 1, 2, 2, 2, 2, 2, 2],
+      layout: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
       articles: [
         {
-          title: '메인 페이지',
-          path: 'moviecommunity/main.png',
+          title: '',
+          path: 'STEW/main.jpg',
         },
         {
-          title: '회원가입',
-          path: 'moviecommunity/signup.png',
+          title: '',
+          path: 'STEW/guide.jpg',
         },
         {
-          title: '로그인',
-          path: 'moviecommunity/login.png',
+          title: '',
+          path: 'STEW/signin.jpg',
         },
         {
-          title: '로그인 하면 좋아하는 영화를 <br/> 선택할 수 있습니다.',
-          path: 'moviecommunity/chooselikemovie.png',
+          title: '',
+          path: 'STEW/sociallogin.jpg',
         },
         {
-          title: '좋아하는 영화를 선택하면<br/>추천 영화들로 <br/>메인페이지가 변경됩니다.',
-          path: 'moviecommunity/main2.png',
+          title: '',
+          path: 'STEW/login.jpg',
         },
         {
-          title: '게시판',
-          path: 'moviecommunity/articlelist.png',
+          title: '',
+          path: 'STEW/grouplist.jpg',
         },
         {
-          title: '새로운 리뷰 작성',
-          path: 'moviecommunity/newarticle.png',
+          title: '',
+          path: 'STEW/groupsearch.jpg',
         },
         {
-          title: '리뷰 보기',
-          path: 'moviecommunity/article.png',
+          title: '',
+          path: 'STEW/joingroup.jpg',
         },
         {
-          title: '댓글',
-          path: 'moviecommunity/comment.png',
+          title: '',
+          path: 'STEW/notice.jpg',
+        },
+        {
+          title: '',
+          path: 'STEW/creategroup.jpg',
+        },
+        {
+          title: '',
+          path: 'STEW/groupdetail.jpg',
+        },
+        {
+          title: '',
+          path: 'STEW/groupdetail2.jpg',
+        },
+        {
+          title: '',
+          path: 'STEW/readycamara.jpg',
+        },
+        {
+          title: '',
+          path: 'STEW/camstudy.jpg',
+        },
+        {
+          title: '',
+          path: 'STEW/calendar.jpg',
+        },
+        {
+          title: '',
+          path: 'STEW/userinfo.jpg',
+        },
+        {
+          title: '',
+          path: 'STEW/userstudytime.jpg',
         },
       ],
     }),
