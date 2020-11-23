@@ -25,7 +25,7 @@
               Project List
             </base-heading>
 
-            <base-text class="mb-5">
+            <base-text class="mb-5 project-detail-style">
               프로젝트 목록입니다.<br>
               클릭하면 자세한 사항을 볼 수 있습니다.
             </base-text>
@@ -53,7 +53,7 @@
 
             <base-text>
               <div
-                class="mb-2"
+                class="mb-2 project-name-style"
                 v-text="project.name"
               />
             </base-text>
@@ -109,10 +109,18 @@
   }
 </script>
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 .project-list-font-style {
-  font-family: 'Black Han Sans', sans-serif !important
+  font-family: 'Fredoka One', cursive !important
 }
-
+.project-detail-style {
+  font-family: 'Do Hyeon', sans-serif !important;
+}
+.project-name-style {
+  font-family: 'Gamja Flower', cursive !important;
+  font-size: 22px;
+}
 </style>
