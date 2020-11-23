@@ -34,7 +34,7 @@
               >
                 <v-img
                   :src="require(`@/assets/rlottie/${data}.png`)"
-                  max-height="300"
+                  max-height="500"
                   width="100%"
                 />
               </v-col>
