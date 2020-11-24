@@ -53,8 +53,8 @@
 
             <base-text>
               <div
-                class="mb-2 project-name-style"
-                v-text="project.name"
+                class="mb-2 project-name-style text-body-2 text-sm-h6 text-md-h5"
+                v-html="project.name"
               />
             </base-text>
           </v-col>
@@ -80,7 +80,7 @@
     data: () => ({
       projects: [
         {
-          name: '영화 추천 커뮤니티',
+          name: '영화추천<br/>커뮤니티',
           icon: 'mdi-movie-open-outline',
           address: 'MovieCommunity',
         },
@@ -90,7 +90,7 @@
           address: 'STEW',
         },
         {
-          name: '태권도 자세교정',
+          name: '태권도<br/>자세교정',
           icon: 'mdi-account-group-outline',
           address: 'Taekwondo',
         },

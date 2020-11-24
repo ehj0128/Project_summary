@@ -8,7 +8,7 @@
     <v-slide-x-transition>
       <h1
         v-if="showLogo"
-        class="shrink main-font-style"
+        class="shrink main-font-style text-body-1 text-sm-h5"
         contain
       >
         엄홍재의 프로젝트
@@ -65,7 +65,7 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
 .main-font-style {
-  font-family: 'Nanum Gothic', sans-serif
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 </style>
