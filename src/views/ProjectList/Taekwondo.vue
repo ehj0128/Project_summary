@@ -71,12 +71,18 @@
       </v-container>
       <div class="py-12" />
     </section>
+    <section>
+      <taekwondo-site />
+      <div class="py-12" />
+    </section>
   </v-main>
 </template>
 
 <script>
+  import TaekwondoSite from '../../components/siteview/TaekwondoSite.vue'
   export default {
     name: 'Taekwondo',
+    components: { TaekwondoSite },
     data: () => ({
       information1: [
         {
