@@ -109,7 +109,7 @@
         },
         {
           title: '관련 주소',
-          text: '<ul><li>Github : <a href="https://github.com/ehj0128/taekwondo">https://github.com/ehj0128/taekwondo</a></li><li>홈페이지 : <a href="youthful-ramanujan-4bb822.netlify.app">youthful-ramanujan-4bb822.netlify.app</a></li></ul>',
+          text: '<ul><li>Github : <a href="https://github.com/ehj0128/taekwondo">https://github.com/ehj0128/taekwondo</a></li><li>홈페이지 : <a href="https://youthful-ramanujan-4bb822.netlify.app/">https://youthful-ramanujan-4bb822.netlify.app/</a></li></ul>',
         },
       ],
     }),
